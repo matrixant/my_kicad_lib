@@ -1,0 +1,131 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AXP20x
+D PMIC QFN-48
+$ENDCMP
+#
+$CMP AXP22x
+D PMIC QFN-68
+$ENDCMP
+#
+$CMP BQ24040
+D Single-Chip Li-Ion Charge Management IC, VSON-10
+K Batter, Charger, Li-Ion
+F https://www.ti.com/lit/ds/symlink/bq24040.pdf
+$ENDCMP
+#
+$CMP BQ27542-G1
+D System Side Li Ion/Polymer Fuel Gauge, VSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27542-g1.pdf
+$ENDCMP
+#
+$CMP Conn_01x50
+D Generic connector, single row, 01x50, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_Small
+D Four pin crystal, GND on pins 2, small symbol
+K crystal oscillator
+F ~
+$ENDCMP
+#
+$CMP DRV8601
+D Haptic Driver for DC Motors (ERMs) and Linear Vibrators (LRAs), VQFN-8
+K Haptic, ERM, LRA
+F http://www.ti.com/lit/ds/symlink/drv8601.pdf
+$ENDCMP
+#
+$CMP EM7028
+D A low-power I2C interface module including Heart Rate Sensor(HRS) and internal LED Current Drivers with 2 Green LEDs
+K Heart Rate Sensor
+F https://atta.szlcsc.com/upload/public/pdf/source/20161219/1482143854315.pdf
+$ENDCMP
+#
+$CMP F1C200s
+D Allwinner f1c200s soc
+$ENDCMP
+#
+$CMP HT2201
+D EEPROM 1Kbit
+$ENDCMP
+#
+$CMP JDY-16
+D BT4.2 master-slave in one board
+$ENDCMP
+#
+$CMP LP3220SAB5F
+D DC-DC 1A 1.5MHz
+$ENDCMP
+#
+$CMP LPA4890MSF
+D Filter-free Mono Audio Amplifier, 1.2W, MSOP-8
+$ENDCMP
+#
+$CMP LT3060
+D 45V VIN, Micropower, Low Noise, 100mA Low Dropout, Linear Regulator
+$ENDCMP
+#
+$CMP MPU-6500
+D InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C/SPI
+K mems
+F https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+$ENDCMP
+#
+$CMP OLED_26P
+D LD50T5128M
+$ENDCMP
+#
+$CMP OPT3001
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, USON-6
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
+$CMP PAM8303
+D 3W Filterless Class-D Mono Audio Amplifier, MSOP-8
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
+$ENDCMP
+#
+$CMP QMC5883L
+D 3-axis Magnetic Sensor, I2C Interface, LGA-16
+K I2C magnetic 3-axis sensor
+$ENDCMP
+#
+$CMP RS2057XC6
+D 4.5Ω Low Voltage SPDT Analog Switch
+F https://atta.szlcsc.com/upload/public/pdf/source/20180629/C237027_9E2F6E55C5A02B0A75435B82CD3F04F8.pdf
+$ENDCMP
+#
+$CMP SW_Thumbwheel_3ch
+D Push button switch, generic, 4 pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP TPS62590
+D 1A 2.25MHz Step-Down Switching Converter, WSON-6
+K Step-Down Switching Converter, Buck
+F https://www.ti.com/lit/ds/symlink/tps62590.pdf
+$ENDCMP
+#
+$CMP TPS78233
+D 500-nA IQ,150-mA, Ultra-Low Quiescent Current
+K Ultra-Low Quiescent Current, Low dropout voltage
+F http://www.ti.com/lit/ds/symlink/tps782.pdf
+$ENDCMP
+#
+$CMP V3S
+D Allwinner v3s soc
+$ENDCMP
+#
+$CMP W25X20CL
+D 2Mb (256KB) Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8
+K flash memory SPI
+F https://www.winbond.com/resource-files/w25x20cl_revf%2020150806.pdf
+$ENDCMP
+#
+#End Doc Library
