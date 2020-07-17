@@ -48,6 +48,11 @@ $CMP F1C200s
 D Allwinner f1c200s soc
 $ENDCMP
 #
+$CMP HR91105A
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer
+$ENDCMP
+#
 $CMP HT2201
 D EEPROM 1Kbit
 $ENDCMP
