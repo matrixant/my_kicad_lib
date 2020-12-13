@@ -43,6 +43,10 @@ K Haptic, ERM, LRA
 F http://www.ti.com/lit/ds/symlink/drv8601.pdf
 $ENDCMP
 #
+$CMP DW01
+D One cell lithium-ion/polymer battery protection ic
+$ENDCMP
+#
 $CMP EM7028
 D A low-power I2C interface module including Heart Rate Sensor(HRS) and internal LED Current Drivers with 2 Green LEDs
 K Heart Rate Sensor
