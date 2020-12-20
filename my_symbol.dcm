@@ -43,6 +43,10 @@ K Haptic, ERM, LRA
 F http://www.ti.com/lit/ds/symlink/drv8601.pdf
 $ENDCMP
 #
+$CMP DUAL_NMOS_8205
+D WST8205
+$ENDCMP
+#
 $CMP DW01
 D One cell lithium-ion/polymer battery protection ic
 $ENDCMP
