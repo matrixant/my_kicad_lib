@@ -113,9 +113,25 @@ D 3-axis Magnetic Sensor, I2C Interface, LGA-16
 K I2C magnetic 3-axis sensor
 $ENDCMP
 #
+$CMP RS0102YH8
+D 2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0102.pdf
+$ENDCMP
+#
 $CMP RS2057XC6
 D 4.5Ω Low Voltage SPDT Analog Switch
 F https://atta.szlcsc.com/upload/public/pdf/source/20180629/C237027_9E2F6E55C5A02B0A75435B82CD3F04F8.pdf
+$ENDCMP
+#
+$CMP SAW_Filter
+D SAW Filter
+$ENDCMP
+#
+$CMP SW_Push_MountingPin
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
 $ENDCMP
 #
 $CMP SW_Thumbwheel_3ch
