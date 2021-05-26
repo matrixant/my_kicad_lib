@@ -61,6 +61,16 @@ $CMP F1C200s
 D Allwinner f1c200s soc
 $ENDCMP
 #
+$CMP GD32F350GxUx
+D ARM Cortex-M4 MCU, 2-3.6V, UFQFPN-28 4x4mm P0.4mm
+K ARM Cortex-M4 GD32F350Gx
+$ENDCMP
+#
+$CMP GD32F350KxUx
+D ARM Cortex-M4 MCU, 2-3.6V, UFQFPN-32 5x5mm P0.5mm
+K ARM Cortex-M4 GD32F350Kx
+$ENDCMP
+#
 $CMP HR91105A
 D LAN Transformer Jack, RJ45, 10/100 BaseT
 K lan jack transformer
@@ -126,6 +136,12 @@ $ENDCMP
 #
 $CMP SAW_Filter
 D SAW Filter
+$ENDCMP
+#
+$CMP STM32F031G6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 23 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
 $ENDCMP
 #
 $CMP SW_Push_MountingPin
